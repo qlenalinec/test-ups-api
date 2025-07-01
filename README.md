@@ -55,7 +55,7 @@ Tracking API, Shipping API, Rating API and Time in Transit API. Feel free to con
 <a name="requirements"></a>
 ## Requirements
 
-This library uses PHP 7.1+.
+This library was updated to work with PHP 5.6
 
 To use the UPS API, you have to [request an access key from UPS](https://www.ups.com/upsdeveloperkit). For every request,
 you will have to provide the Access Key, your UPS User ID and Password.
@@ -67,7 +67,7 @@ It is recommended that you install the PHP UPS API library [through composer](ht
 run the Composer command to install the latest stable version of PHP UPS API:
 
 ```bash
-$ composer require gabrielbull/ups-api
+$ composer require qlenalinec/test-ups-api
 ```
 
 If not using composer, you must also include these libraries: [Guzzle](https://github.com/guzzle/guzzle), [Guzzle Promises](https://github.com/guzzle/promises), [Guzzle PSR7] (https://github.com/guzzle/psr7), [PHP-Fig PSR Log](https://github.com/php-fig/log), and [PHP-Fig HTTP Message](https://github.com/php-fig/http-message).

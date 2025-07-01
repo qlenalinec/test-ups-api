@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.0 (07-2025)
+
+- Update library to work with PHP 5.6
+
+# ORIGINAL BRANCH CHANGELOG
+
 ## 1.2.0 (released 15-09-2020)
 
 - Removed PHP 5.5, 5.6 and 7.0 support
