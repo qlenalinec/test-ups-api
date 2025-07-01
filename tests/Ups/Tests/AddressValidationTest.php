@@ -191,7 +191,7 @@ class AddressValidationTest extends TestCase
         $this->assertEquals('39073-9240', $validAddress->getPostalCodeWithExtension());
     }
 
-    public function setup(): void
+    public function setup()
     {
         $this->xavRequest = new AddressValidation();
 
