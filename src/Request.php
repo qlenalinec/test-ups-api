@@ -60,7 +60,7 @@ class Request implements RequestInterface, LoggerAwareInterface
      *
      * @return null
      */
-    public function setLogger(LoggerInterface $logger): void
+    public function setLogger(LoggerInterface $logger)
     {
         $this->logger = $logger;
     }

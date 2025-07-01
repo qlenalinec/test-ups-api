@@ -489,7 +489,7 @@ class ShipmentServiceOptions implements NodeInterface
     /**
      * @param mixed $UPScarbonneutralIndicator
      */
-    public function setUPScarbonneutralIndicator(): void
+    public function setUPScarbonneutralIndicator()
     {
         $this->UPScarbonneutralIndicator = true;
     }

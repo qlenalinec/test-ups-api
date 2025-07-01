@@ -12,7 +12,7 @@ class ShipmentServiceOptionsTest extends TestCase
 {
     private $data;
 
-    public function setUp(): void
+    public function setUp()
     {
         $this->data = (object) (array(
                     'ImportControlIndicator' => true,

@@ -9,7 +9,7 @@ class LabelMethodTest extends TestCase
 {
     private $data;
 
-    public function setUp(): void
+    public function setUp()
     {
         $this->data = (object) (array(
                     'Code' => LabelMethod::C_PRINT,

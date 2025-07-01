@@ -13,7 +13,7 @@ class InternationalFormsTest extends TestCase
 {
     private $data;
 
-    public function setUp(): void
+    public function setUp()
     {
         $this->data = (object) (array(
             'EEIFilingOption' => (object) (

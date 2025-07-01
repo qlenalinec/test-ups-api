@@ -19,7 +19,7 @@ class RateTest extends TestCase
      */
     private $rate;
 
-    public function setUp(): void
+    public function setUp()
     {
         $this->rate = new Rate(null, null, null, true);
     }
