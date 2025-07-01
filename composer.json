@@ -1,5 +1,5 @@
 {
-  "name": "gabrielbull/ups-api",
+  "name": "qlenalinec/test-ups-api",
   "type": "library",
   "description": "PHP UPS API",
   "keywords": [
@@ -16,6 +16,10 @@
   ],
   "license": "MIT",
   "authors": [
+    {
+      "name": "Léopold Le Nalinec",
+      "email": "leopold.lenalinec@quipment.fr"
+    },
     {
       "name": "Gabriel Bull",
       "email": "me@gabrielbull.com"
@@ -52,7 +56,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "1.0-dev"
     }
   },
   "autoload": {

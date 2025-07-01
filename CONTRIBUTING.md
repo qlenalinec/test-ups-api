@@ -13,18 +13,18 @@ Contributions are welcome, and are accepted via pull requests. Please review the
 
 ## Running Tests
 
-You will need an install of [Composer](https://getcomposer.org) before continuing.
+You will need an install of [Docker](https://docs.docker.com/engine/install/) before continuing.
 
-First, install the dependencies:
+First, build:
 
 ```bash
-$ composer install
+$ docker build -t php-ups-api-testunit . -f app/docker/Dockerfile
 ```
 
 Then run phpunit:
 
 ```bash
-$ vendor/bin/phpunit
+$ docker run --rm php-ups-api-testunit
 ```
 
 If the test suite passes on your local machine you should be good to go.
